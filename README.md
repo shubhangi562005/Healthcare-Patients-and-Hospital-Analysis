@@ -109,10 +109,38 @@ Contains billing information, treatment IDs, payment methods, billing amounts, a
 - No-show Appointments: 52
 - Scheduled Appointments: 51
 
-The dashboards also present insurance-provider distribution, patient age groups, registration trends, billing revenue, and payment status.
+## Project Structure
 
-## Conclusion
+```text
+Healthcare Patients Analysis/
+│
+├── appointments(1).csv
+├── billing.csv
+├── patients.csv
+├
+│
+├── Hospital_Overview.png
+├── Patients_analysis.png
+├── Appointments(1).png
+│
+└── README.md
+```
+
+## Dashboard Screenshot
+
+### 1. Hospital Overview Dashboard
+
+![Hospital_Overview_Dashboard](./Hospital_Overview.png)
+
+### 2. Patients Analysis Dashboard
+
+![Patients_analysis Dashboard](./Patients_analysis.png)
+
+### 3. Appointments Analysis Dashboard
+
+![Appointments_Analysis Dashboard](./Appointments_Analysis.png)
+   
+## Final Conclusion
 This project demonstrates how Power BI can transform patient, appointment, and billing data into interactive dashboards. It helps users understand patient demographics, monitor appointment activity, and analyze hospital billing and payments.
 
-## Data Privacy
-The patient dataset contains contact numbers, email addresses, addresses, and insurance numbers. These fields should be removed or anonymized before publishing the datasets publicly on GitHub.
+
